@@ -15619,6 +15619,11 @@
   "RootNamespace": "demomvc",
   "Documents": [
     {
+      "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\Ventas\\Index.cshtml",
+      "TargetPath": "Views\\Ventas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

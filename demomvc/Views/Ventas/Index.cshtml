@@ -1,0 +1,41 @@
+@model demomvc.Models.Ventas
+
+@{
+    ViewData["Title"] = "Formulario VideoGame";
+}
+
+<div class="text-center">
+    <h1>@ViewData["Title"]</h1>
+
+    <h2>Producto</h2>
+
+
+
+    <form asp-controller="Ventas" asp-action="Create">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" placeholder="Escribir nombre del producto"/>
+
+        <label asp-for="Categoria" class="control-label"></label>
+        <input asp-for="Categoria" class="form-control" placeholder="Ejm. Diamante, Oro o Bronce" />
+          
+        
+
+        <label asp-for="Precio" class="control-label"></label>
+        <input asp-for="Precio" class="form-control" placeholder=" Precio en soles" />
+
+        <label asp-for="Descuento" class="control-label"></label>
+        <input asp-for="Descuento" class="form-control" placeholder="%" />
+        <br>
+        <div class="form-group">
+            <button type="submit" class="btn btn-info">Registrar</button> 
+        </div>              
+    </form>
+    <h1>@ViewData["Message"]</h1>
+
+
+
+
+
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
