@@ -12,6 +12,8 @@ namespace demomvc.Controllers
 
         public IActionResult Create()
         {
+
+            
             ViewData["Message"] = "Se registró con exito, gracias";
             return View("index");
         }
