@@ -6,7 +6,7 @@ namespace demomvc.Models
 
        public string Categoria{ get; set; }
 
-       public string Precio{get; set;}
+       public decimal Precio{get; set;}
 
        public string Descuento{get; set; }
 
