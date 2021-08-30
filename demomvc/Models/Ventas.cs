@@ -9,8 +9,8 @@ namespace demomvc.Models
 
     public class Ventas
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("id")]
+       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+       [Column("id")]
        public int Id { get; set; }
        [Column("name")]
        public string Name{ get; set; }

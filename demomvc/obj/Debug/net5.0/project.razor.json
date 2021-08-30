@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\Ventas\\Edit.cshtml",
+      "TargetPath": "Views\\Ventas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15661,11 @@
     {
       "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Programacion\\VideoJuegos\\Video-Game\\demomvc\\Views\\Ventas\\create.cshtml",
+      "TargetPath": "Views\\Ventas\\create.cshtml",
       "FileKind": "mvc"
     }
   ],
